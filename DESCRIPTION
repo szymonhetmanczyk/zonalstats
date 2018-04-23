@@ -1,0 +1,14 @@
+Package: zonalstats
+Title: The package allows you to calculate zonal statistics.
+Version: 0.0.0.9000
+Authors@R: person("Szymon", "Hetmañczyk", email = "szymonhetmanczyk@gmail.com", role = c("aut", "cre"))
+Description: Zonal statistics is a helpful tool that allows you to determine any statistics from raster pixels that overlap with a polyline from the vector layer.
+Depends: R (>= 3.3.2)
+License: GNU General Public License
+Encoding: UTF-8
+LazyData: true
+Imports: sp,
+    raster,
+    rgdal,
+    moments
+RoxygenNote: 6.0.1
